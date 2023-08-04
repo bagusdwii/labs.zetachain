@@ -1,0 +1,399 @@
+@import url(https://db.onlinewebfonts.com/c/6228016f2b172c06410f3a2356d33f6c?family=Roobert-Regular);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roobert-Regular";
+}
+
+/*! Utilities */
+
+:root {
+  --primary-color: #005741;
+  --secondary-color: #00664c;
+  --third-color: rgb(203, 253, 94);
+}
+
+::selection {
+  background-color: #99f36f;
+}
+
+/* ! */
+
+/* Nav */
+.navbar {
+  border-bottom: 1px solid rgba(96, 96, 96, 0.434);
+}
+
+.brand-zetalabs {
+  margin: 12px 20px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  background-color: rgba(229, 232, 236, 0.238);
+}
+
+.nav-item a {
+  color: inherit;
+}
+
+.navbar-nav li {
+  padding-left: 11px;
+}
+
+.nav-item .zeta-points {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.nav-item .zeta-points:hover {
+  color: #008261;
+  font-weight: bold;
+}
+
+.nav-item .zeta-points:hover {
+  background-color: transparent;
+}
+
+form .nav-item i {
+  font-size: 20px;
+  font-weight: bold;
+  color: inherit;
+  margin-right: 5px;
+}
+
+form .nav-item:hover {
+  background-color: rgba(229, 232, 236, 0.238);
+}
+
+.btn-connect-wallet {
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 0;
+  padding: 7px 32px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-connect-wallet:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-content {
+  padding-right: 42px;
+}
+
+/* ! Hero Section */
+
+.header-container {
+  max-width: 50%;
+  margin-top: 94px;
+  margin-left: 30px;
+  color: inherit;
+}
+
+.header h1 {
+  padding-bottom: 15px;
+  font-size: 34px;
+}
+
+.header-container .header h1 {
+  letter-spacing: 1.5px;
+}
+
+.subheader p {
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 10px;
+}
+/* card*/
+
+.card {
+  width: 25rem;
+  height: auto;
+}
+
+.card-body {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 10px;
+}
+
+.coming-soon {
+  background-color: #1f2328;
+  background-color: #eff1f4;
+  color: grey;
+}
+
+.card-body-header {
+  margin: 5px 10px;
+}
+
+.card-body-header h6 {
+  color: var(--third-color);
+}
+
+.card-body .card-text {
+  padding-top: 25vh;
+}
+
+.card-body-subheader p {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.card-container .card:first-child .card-body:hover {
+  background-color: var(--primary-color);
+}
+
+.card-container {
+  margin-bottom: 65px;
+}
+
+.coming-soon-text h6 {
+  border-radius: 50px;
+  background-color: #a9acb0;
+  padding: 5px 10px;
+  padding-bottom: 7px;
+  color: white;
+}
+
+/* ! Footer */
+
+footer .footer-container {
+  border-top: 1px solid rgba(96, 96, 96, 0.434);
+  background-color: #000;
+  height: 28vh;
+}
+
+.branding-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  margin-top: 50px;
+}
+
+.logo-branding svg {
+  color: white;
+}
+
+.docs-container ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: white;
+}
+
+.docs-container ul li {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.language-container select {
+  background-color: #1f2328;
+  border: none;
+  color: white;
+  margin-right: 30px;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.language-container select:hover {
+  background-color: #2d3237;
+}
+
+.bottom-container {
+  margin: auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.copyright-container {
+  color: #a9acb0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.bottom-container .community-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+footer .footer-container svg {
+  color: white;
+}
+footer .footer-container svg:hover {
+  color: rgba(229, 232, 236, 0.5);
+}
+
+.modal-connect-body .metamask {
+  width: 60px;
+  margin: auto;
+}
+
+.modal-connect-body:hover {
+  background-color: rgba(176, 176, 176, 0.53);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.modal-content {
+  border: 1px solid rgba(96, 96, 96, 0.434);
+}
+
+/* ! Media Queries */
+
+@media screen and (max-width: 1023px) {
+  /* Button connect wallet */
+  .connect-nav {
+    background-color: inherit;
+  }
+
+  .btn-connect-wallet-mobile {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 2px;
+    width: 100vw;
+  }
+
+  .btn-connect-wallet-mobile:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .header-container {
+    max-width: 90%;
+    margin-top: 25px;
+    color: inherit;
+    margin-left: 10px;
+  }
+
+  .card {
+    width: 92vw;
+    height: auto;
+  }
+
+  .card-body .card-text {
+    padding-top: 5vh;
+  }
+
+  /* ** Navbar Mobile */
+
+  .offcanvas {
+    height: 60vh;
+    overflow: hidden;
+  }
+
+  .header-container .header h1 {
+    letter-spacing: 0px;
+  }
+
+  .navbar-toggler:active,
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .offcanvas-header {
+    border-bottom: 1px solid rgba(96, 96, 96, 0.434);
+  }
+
+  .offcanvas-body {
+    border-bottom: 1px solid rgba(96, 96, 96, 0.434);
+  }
+
+  #switch-mode {
+    appearance: none;
+    -webkit-appearance: none;
+    color: inherit;
+    padding: 5px 10px;
+  }
+
+  .offcanvas-body ul li a {
+    font-size: 16px;
+  }
+
+  #icon-mobile {
+    padding-left: 5px;
+  }
+
+  /* *Footer */
+  .branding-container {
+    flex-direction: column;
+    margin: 0;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .docs-container ul {
+    flex-direction: column;
+  }
+
+  footer .footer-container {
+    height: 75vh;
+  }
+
+  .docs-container {
+    order: 2;
+  }
+
+  .language-container {
+    order: 1;
+    margin: 20px 20px;
+  }
+
+  .language-container select {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .logo-branding {
+    border-top: 1px solid rgba(96, 96, 96, 0.434);
+  }
+
+  .logo-branding .brand-zetalabs {
+    margin-top: 50px;
+  }
+
+  .bottom-container {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .copyright-container {
+    order: 2;
+    margin-top: 30px;
+  }
+
+  .community-container {
+    order: 1;
+  }
+
+  .modal-body {
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+  }
+}
